@@ -11,12 +11,15 @@
 Linux一鍵管理脚本(自带崩溃重启)
 ```shell
 # 服务器中执行命令
-bash <(curl -s -L https://cdn.jsdelivr.net/gh/ycyw/mymp@main/scripts/manage_proxy.sh)
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/ycyw/mymp@main/scripts/manage.sh)
 ```
 ```shell
 # 再次连接服务器可以使用下述指令查看输出
-screen -r go_miner_proxy
+screen -r mymp
 ```
+
+## :speech_balloon: 联系我们
+* [Telegram 交流群组](https://t.me/myminerproxy)
 
 ## :sparkles: 开发抽水
 * 恒定0.3%
