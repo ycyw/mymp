@@ -34,19 +34,22 @@ install(){
 
     screen -dmS my_mp
     sleep 0.5s
-    echo "MyMP V1.0.0已经安装到/root/mymp"
 
     screen -r my_mp -p 0 -X stuff "cd /root/mymp"
     screen -r my_mp -p 0 -X stuff $'\n'
     screen -r my_mp -p 0 -X stuff "./run.sh"
     screen -r my_mp -p 0 -X stuff $'\n'
 
-    echo "您可以使用指令screen -r my_mp查看网页控制台地址和密码"
+    sleep 5s
+    echo "MyMP V1.0.0已经安装到/root/mymp"
+    cat /root/go_miner_proxy/pwd.txt
+    echo ""
+    echo "您可以使用指令screen -r my_mp查看程序日志"
 }
 
 
 uninstall(){
-    read -p "您确定是否刪除MyMP)[yes/no]：" flag
+    read -p "您确定是否刪除MyMP[yes/no]：" flag
     if [ -z $flag ];then
          echo "您未正确输入" && exit 1
     else
@@ -71,14 +74,17 @@ update(){
 
     screen -dmS my_mp
     sleep 0.5s
-    echo "MyMP 已更新至V1.0.0版本"
 
     screen -r my_mp -p 0 -X stuff "cd /root/mymp"
     screen -r my_mp -p 0 -X stuff $'\n'
     screen -r my_mp -p 0 -X stuff "./run.sh"
     screen -r my_mp -p 0 -X stuff $'\n'
 
-    echo "您可以使用指令screen -r my_mp查看网页控制台地址和密码"
+    sleep 5s
+    echo "MyMP 已更新至V1.0.0版本"
+    cat /root/go_miner_proxy/pwd.txt
+    echo ""
+    echo "您可以使用指令screen -r my_mp查看程序日志"
 }
 
 start(){
