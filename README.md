@@ -7,7 +7,7 @@
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home.png)
 
 ## :tada: 安装
-Linux一鍵管理脚本(自带崩溃重启)
+* Linux系统一键管理脚本(自带崩溃重启)
 ```shell
 # 服务器中执行命令
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/ycyw/mymp@main/script/manage.sh)
@@ -16,7 +16,9 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/ycyw/mymp@main/script/manage.sh)
 # 再次连接服务器可以使用以下命令查看输出
 screen -r my_mp
 ```
-
+* windows系统  
+1. 在 [GitHub Release](https://github.com/ycyw/mymp/releases) 页面下载windows.zip后缀的最新版本程序  
+2. 下载完成后，解压压缩包，双击打开``启动.bat``即可  
 ## :speech_balloon: 联系我们
 * [Telegram 交流群组](https://t.me/myminerproxy)
 
