@@ -10,7 +10,7 @@
 Linux一鍵管理脚本(自带崩溃重启)
 ```shell
 # 服务器中执行命令
-bash <(curl -s -L https://cdn.jsdelivr.net/gh/ycyw/mymp@main/scripts/manage.sh)
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/ycyw/mymp@main/script/manage.sh)
 ```
 ```shell
 # 再次连接服务器可以使用以下命令查看输出
