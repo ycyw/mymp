@@ -42,7 +42,7 @@ install(){
 
     sleep 5s
     echo "MyMP V1.0.0已经安装到/root/mymp"
-    cat /root/go_miner_proxy/pwd.txt
+    cat /root/mymp/login.txt
     echo ""
     echo "您可以使用指令screen -r my_mp查看程序日志"
 }
@@ -82,7 +82,7 @@ update(){
 
     sleep 5s
     echo "MyMP 已更新至V1.0.0版本"
-    cat /root/go_miner_proxy/pwd.txt
+    cat /root/mymp/login.txt
     echo ""
     echo "您可以使用指令screen -r my_mp查看程序日志"
 }
