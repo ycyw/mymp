@@ -7,7 +7,7 @@
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home.png)
 ## :zap: 功能
 * 以太坊矿池中转
-* 独家自研智能自适应抽水算法
+* 独家自研零损耗抽水算法
 * 自定义抽水比例
 * 支持TCP、SSL连接协议
 * 多矿池代理批量管理
