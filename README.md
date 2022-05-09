@@ -2,7 +2,7 @@
   <img src="https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/logo.png" width="230"/>
 </h1>
 
-<h4 align="center">以太坊ETH矿池转发代理工具，独家精准智能抽水算法</h4>
+<h4 align="center">以太坊ETH矿池转发代理工具，独家自研零损耗抽水算法</h4>
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home.png)
 ## :zap: 功能
