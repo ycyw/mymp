@@ -1,7 +1,7 @@
 #### 最新版本：[v1.1.0](https://github.com/ycyw/mymp/releases/tag/v1.1.0)
 #### 联系我们：[Telegram 交流群组](https://t.me/myminerproxy)
 #### 官方地址：[github.com/ycyw/mymp](https://github.com/ycyw/mymp)
-v1.1.0更新內容：
+#### v1.1.0更新內容：
 - 抽水代码逻辑优化
 - 内存使用率优化
 - 修复偶发情况下实际抽水率略高于设置抽水率的bug
