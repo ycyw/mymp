@@ -2,7 +2,7 @@
   <img src="https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/logo.png" width="230"/>
 </h1>
 
-<h4 align="center">以太坊ETH矿池转发代理工具，独家自研零损耗抽水算法</h4>
+<h4 align="center">以太坊ETH矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率（每台矿机只需0.2MB）</h4>
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home.png)
 ## :zap: 功能
@@ -10,12 +10,13 @@
 * 独家自研零损耗抽水算法
 * 自定义抽水率
 * 动态修改抽水率
+* 自定义矿池地址
 * 支持跨矿池抽水
 * 内置常用矿池地址
+* 矿池显示的本地算力修改
 * 支持TCP、SSL连接协议
 * 内置SSL证书
 * 算力曲线统计图表
-* 矿机地域统计图表
 * 全功能web网页操作
 * 伪装低延迟（矿机显示延迟为矿机到中转服务器的延迟）
 * 进程守护运行防止程序崩溃导致矿机掉线
@@ -36,6 +37,8 @@ screen -r my_mp
 #### 注：若网页后台打开不了，请检查云服务器的防火墙/安全组是否开放对应端口
 ## :speech_balloon: 联系我们
 * [Telegram 交流群组](https://t.me/myminerproxy)
+* QQ群：760133101
+* 微信号：w_onea
 
 ## :sparkles: 开发抽水
 * 恒定0.3%
