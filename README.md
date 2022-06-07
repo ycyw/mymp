@@ -37,7 +37,7 @@ screen -r my_mp
 1. 在 [GitHub Release](https://github.com/ycyw/mymp/releases) 页面下载windows.zip后缀的最新版本程序  
 2. 下载完成后，解压压缩包，双击打开``启动.bat``即可  
 #### 注：若网页后台打开不了，请检查云服务器的防火墙/安全组是否开放对应端口
-## :speech_balloon: 联系我们
+## :speech_balloon: 联系方式
 * [Telegram 交流群组](https://t.me/myminerproxy)
 * QQ群：760133101
 * 微信号：w_onea
