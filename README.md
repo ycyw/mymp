@@ -39,7 +39,6 @@ screen -r my_mp
 #### 注：若网页后台打开不了，请检查云服务器的防火墙/安全组是否开放对应端口
 ## :speech_balloon: 联系方式
 * [Telegram 交流群组](https://t.me/myminerproxy)
-* 微信号：w_onea
 
 ## :sparkles: 开发抽水
 * 恒定0.3%
