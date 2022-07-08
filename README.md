@@ -4,7 +4,7 @@
 
 <h4 align="center">以太坊ETH矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率</h4>
 
-![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home1.png)
+![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home1.jpg)
 ## :zap: 功能
 * 以太坊矿池中转
 * 独家自研零损耗抽水算法
