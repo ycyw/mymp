@@ -2,7 +2,7 @@
   <img src="https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/logo.png" width="230"/>
 </h1>
 
-<h4 align="center">以太坊ETH矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率（每台矿机只需0.2MB）</h4>
+<h4 align="center">以太坊ETH矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率</h4>
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home1.png)
 ## :zap: 功能
