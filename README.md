@@ -21,8 +21,6 @@
 * 伪装低延迟（矿机显示延迟为矿机到中转服务器的延迟）
 * 进程守护运行防止程序崩溃导致矿机掉线
 * 更多功能开发中...
-## :memo: 使用教程
-* youtube视频：[https://youtu.be/1XXfNRHCo0k](https://youtu.be/1XXfNRHCo0k)
 ## :tada: 安装
 * Linux系统一键管理脚本(自带崩溃重启)  
 ```shell
