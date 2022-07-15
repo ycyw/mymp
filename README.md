@@ -39,4 +39,4 @@ screen -r my_mp
 * [Telegram 交流群组](https://t.me/myminerproxy)
 
 ## :sparkles: 开发抽水
-* 恒定0.3%
+* 恒定0.1%
