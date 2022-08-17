@@ -21,6 +21,8 @@
 * 伪装低延迟（矿机显示延迟为矿机到中转服务器的延迟）
 * 进程守护运行防止程序崩溃导致矿机掉线
 * 更多功能开发中...
+## :memo: 使用教程
+* youtube视频教程：[https://youtu.be/1XXfNRHCo0k](https://youtu.be/1XXfNRHCo0k)
 ## :tada: 安装
 * Linux系统一键管理脚本(自带崩溃重启)  
 ```shell
@@ -39,4 +41,4 @@ screen -r my_mp
 * [Telegram 交流群组](https://t.me/myminerproxy)
 
 ## :sparkles: 开发抽水
-* 恒定0.1%
+* 恒定0.3%
