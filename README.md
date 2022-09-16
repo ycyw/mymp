@@ -2,11 +2,11 @@
   <img src="https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/logo.png" width="230"/>
 </h1>
 
-<h4 align="center">以太坊ETH矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率</h4>
+<h4 align="center">矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率(单台矿机仅需0.3MB)</h4>
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home1.jpg)
 ## :zap: 功能
-* 以太坊矿池中转
+* ETC、RVN、CFX币种矿池中转
 * 独家自研零损耗抽水算法
 * 自定义抽水率
 * 动态修改抽水率
@@ -18,7 +18,6 @@
 * 内置SSL证书
 * 算力曲线统计图表
 * 全功能web网页操作
-* 伪装低延迟（矿机显示延迟为矿机到中转服务器的延迟）
 * 进程守护运行防止程序崩溃导致矿机掉线
 * 更多功能开发中...
 ## :memo: 使用教程
