@@ -28,8 +28,8 @@ install(){
     wget https://cdn.jsdelivr.net/gh/ycyw/mymp@main/script/run.sh -O /root/mymp/run.sh --no-check-certificate
     chmod 777 /root/mymp/run.sh
 
-    wget https://cdn.jsdelivr.net/gh/ycyw/mymp@main/release/mymp_v1.1.1_linux.tar.gz -O /root/mymp_v1.1.1_linux.tar.gz --no-check-certificate
-    tar -zxvf /root/mymp_v1.1.1_linux.tar.gz -C /root/mymp
+    wget https://cdn.jsdelivr.net/gh/ycyw/mymp@main/release/mymp_v1.2_linux.tar.gz -O /root/mymp_v1.2_linux.tar.gz --no-check-certificate
+    tar -zxvf /root/mymp_v1.2_linux.tar.gz -C /root/mymp
     chmod 777 /root/mymp/mymp
 
     screen -dmS my_mp
@@ -41,7 +41,7 @@ install(){
     screen -r my_mp -p 0 -X stuff $'\n'
 
     sleep 5s
-    echo "MyMP v1.1.1已经安装到/root/mymp"
+    echo "MyMP v1.2已经安装到/root/mymp"
     cat /root/mymp/login.txt
     echo ""
     echo "您可以使用指令screen -r my_mp查看程序日志"
@@ -62,14 +62,14 @@ uninstall(){
 }
 
 update(){
-    wget https://cdn.jsdelivr.net/gh/ycyw/mymp@main/release/mymp_v1.1.1_linux.tar.gz -O /root/mymp_v1.1.1_linux.tar.gz --no-check-certificate
+    wget https://cdn.jsdelivr.net/gh/ycyw/mymp@main/release/mymp_v1.2_linux.tar.gz -O /root/mymp_v1.2_linux.tar.gz --no-check-certificate
 
     if screen -list | grep -q "my_mp"; then
         screen -X -S my_mp quit
     fi
     rm -rf /root/mymp/mymp
 
-    tar -zxvf /root/mymp_v1.1.1_linux.tar.gz -C /root/mymp
+    tar -zxvf /root/mymp_v1.2_linux.tar.gz -C /root/mymp
     chmod 777 /root/mymp/mymp
 
     screen -dmS my_mp
@@ -81,7 +81,7 @@ update(){
     screen -r my_mp -p 0 -X stuff $'\n'
 
     sleep 5s
-    echo "MyMP 已更新至v1.1.1版本"
+    echo "MyMP 已更新至v1.2版本"
     cat /root/mymp/login.txt
     echo ""
     echo "您可以使用指令screen -r my_mp查看程序日志"
@@ -177,7 +177,7 @@ check_limit(){
 
 
 echo "======================================================="
-echo "MyMP 一键脚本，脚本默认安装到/root/mymp"
+echo "MyMP 一键脚本，脚本默认安装到/root/mymp，程序版本v1.2"
 echo "  1、安  装"
 echo "  2、卸  载"
 echo "  3、更  新"
