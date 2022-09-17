@@ -48,3 +48,4 @@ screen -r my_mp
 * 新增ETC、RVN、CFX币种
 * 新增当前算力、平均算力、有效份额、无效份额字段显示
 * 前端说明提示及统计图表优化
+* *历史版本信息可[点击此处](https://github.com/ycyw/mymp/releases)查看*
