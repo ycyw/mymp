@@ -21,7 +21,8 @@
 * 进程守护运行防止程序崩溃导致矿机掉线
 * 更多功能开发中...
 ## :memo: 使用教程
-* youtube视频教程：[https://youtu.be/1XXfNRHCo0k](https://youtu.be/1XXfNRHCo0k)
+<!-- * youtube视频教程：[https://youtu.be/1XXfNRHCo0k](https://youtu.be/1XXfNRHCo0k) -->
+* 视频教程：[https://t.me/myminerproxy/92](https://t.me/myminerproxy/92)
 ## :tada: 安装
 * Linux系统一键管理脚本(自带崩溃重启)  
 ```shell
