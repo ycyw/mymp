@@ -7,7 +7,7 @@
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home1.jpg)
 ## :zap: 功能
 * ETC、RVN、CFX币种矿池中转
-* 独家自研零损耗抽水算法
+* 独家自研不掉线零损耗抽水算法
 * 自定义抽水率
 * 动态修改抽水率
 * 自定义矿池地址
@@ -22,7 +22,7 @@
 * 更多功能开发中...
 ## :memo: 使用教程
 <!-- * youtube视频教程：[https://youtu.be/1XXfNRHCo0k](https://youtu.be/1XXfNRHCo0k) -->
-* 视频教程：[https://t.me/myminerproxy/92](https://t.me/myminerproxy/92)
+* 视频教程：[https://t.me/myminerproxy/1046](https://t.me/myminerproxy/1046)
 ## :tada: 安装
 * Linux系统一键管理脚本(自带崩溃重启)  
 ```shell
