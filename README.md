@@ -2,16 +2,17 @@
   <img src="https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/logo.png" width="230"/>
 </h1>
 
-<h4 align="center">矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率(单台矿机仅需0.3MB)</h4>
+<h4 align="center">矿池转发代理工具，独家自研零损耗抽水算法，超低内存使用率(每台矿机仅需0.3MB)</h4>
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ycyw/mymp@main/images/home1.jpg)
 ## :zap: 功能
-* ETC、RVN、CFX币种矿池中转
-* 独家自研不掉线零损耗抽水算法
-* 自定义抽水率
+* 支持币种：ETC、RVN、ERG、CFX、ETHW、ETHF、NEOX、FIRO
+* 自研不掉线零无效零损耗抽水算法
 * 动态修改抽水率
+* 全币种支持跨池抽水
+* 抽水率最高可设置为90%
+* 在线自定义修改网页后台端口、密码
 * 自定义矿池地址
-* 支持跨矿池抽水
 * 内置常用矿池地址
 * 矿池显示的本地算力修改
 * 支持TCP、SSL连接协议
@@ -25,12 +26,16 @@
 * 视频教程：[https://t.me/myminerproxy/1046](https://t.me/myminerproxy/1046)
 ## :tada: 安装
 * Linux系统一键管理脚本(自带崩溃重启)  
+1. 服务器中执行以下命令，根据提示输入数字后回车执行
 ```shell
-# 服务器中执行命令
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/ycyw/mymp@main/script/manage.sh)
 ```
+2. 安装完成后底部会显示后台地址、随机端口和密码，复制登录即可。如果忘记地址或密码，在服务器中执行以下命令查看
 ```shell
-# 再次连接服务器可以使用以下命令查看输出
+cat /root/mymp/login.txt
+```
+3. 再次连接服务器可以使用以下命令查看日志输出
+```shell
 screen -r my_mp
 ```
 * Windows系统(使用有公网IP的服务器)  
@@ -43,10 +48,9 @@ screen -r my_mp
 ## :sparkles: 开发抽水
 * 恒定0.3%
 
-
-## :bricks: 最新版本：v1.2（2022.09.16）
-* 删除ETH相关代码
-* 新增ETC、RVN、CFX币种
-* 新增当前算力、平均算力、有效份额、无效份额字段显示
-* 前端说明提示及统计图表优化
-* *历史版本信息可[点击此处](https://github.com/ycyw/mymp/releases)查看*
+## :bricks: 最新版本：v1.3（2022.10.01）
+* 修复同名矿机并发上线可能导致异常数据的问题
+* 优化抽水逻辑100%无损，抽水不掉线不会产生无效，全币种支持跨池抽水，抽水率最高可设置为90%
+* 新增矿机实际抽水率、状态、上线时间、最后提交时间的显示
+* 新增币种ETHW、ETHF、ERG、NEOX、FIRO
+* 历史版本信息可[点击此处](https://github.com/ycyw/mymp/releases)查看
